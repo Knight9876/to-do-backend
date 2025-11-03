@@ -1,0 +1,64 @@
+# ────────────────
+# Node / Express backend .gitignore
+# ────────────────
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build / runtime files
+dist/
+build/
+coverage/
+logs/
+*.log
+*.out
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables (sensitive)
+.env
+.env.*
+!.env.example
+
+# Local environment
+.DS_Store
+*.local
+.idea/
+.vscode/
+*.swp
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# TypeScript (if you add it later)
+*.tsbuildinfo
+
+# PM2 / other process managers
+pids/
+pms.json
+
+# Temp / cache
+tmp/
+temp/
+.cache/
+.eslintcache
+
+# Test coverage output
+coverage/
+.nyc_output/
+
+# Editor backups
+*.bak
+*.tmp
+
+# Render build files (if ever used)
+render.yaml
+
+# ────────────────
+# End of file
+# ────────────────
